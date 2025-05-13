@@ -1,0 +1,33 @@
+ # Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+venv/
+*.venv/
+pip-selfcheck.json
+pip-log.txt
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Environment variables
+.env
+*.env
+
+# IDE/Editor specific
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+
+# Data files (Uncomment if your CSVs are very large and you plan to store them elsewhere)
+# data/raw/archive (1)/*.csv
+# data/processed/*.csv
+
+# OS specific
+.DS_Store
+Thumbs.db
