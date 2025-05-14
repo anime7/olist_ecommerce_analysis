@@ -74,7 +74,7 @@ We use PostgreSQL as our relational database, organized into Bronze, Silver, and
 
 Below is the Entity Relationship Diagram (ERD) illustrating the table structures and relationships:
 
-**[ADD IMAGE HERE: Database ERD - `docs/images/final_erd.png`]**
+**![Database ERD](docs/images/final_erd.png)**
 *(Ensure the image `final_erd.png` is placed in `docs/images/` or update the path.)*
 
 The SQL scripts in the `sql/` directory define the database structure:
