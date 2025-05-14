@@ -38,7 +38,7 @@ The dataset is the publicly available Olist E-commerce dataset, which contains a
 ## Project Structure
 
 The repository is typically organized as follows:
-
+```
 olist_ecommerce_analysis/
 |-- data/raw/archive (1)/ # Contains the raw Olist CSV datasets
 |-- docs/images/ # Suggested folder for ERD and dashboard images
@@ -64,6 +64,7 @@ olist_ecommerce_analysis/
 |-- .gitignore
 |-- README.md # This file
 |-- requirements.txt # Python dependencies
+```
 ## Database Design
 
 A relational database (PostgreSQL) is used to store and manage the data. The database is structured with Bronze, Silver, and Gold schemas, representing different stages of data processing and refinement.
