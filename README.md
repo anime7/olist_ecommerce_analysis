@@ -40,30 +40,30 @@ The dataset is the publicly available Olist E-commerce dataset, which contains a
 The repository is typically organized as follows:
 
 olist_ecommerce_analysis/
-├── data/raw/archive (1)/ # Contains the raw Olist CSV datasets
-├── docs/images/ # Suggested folder for ERD and dashboard images
-│   ├── final_erd.png
-│   ├── Screenshot 2025-05-14 222202.png
-│   └── Screenshot 2025-05-14 222238.png
-├── notebooks/ # Jupyter notebooks for experimentation, connection testing, and potentially analysis
-│   ├── db_connection.ipynb
-│   ├── extract.ipynb
-│   ├── load.ipynb
-│   └── main.ipynb
-├── sql/ # SQL scripts for database schema, table creation, constraints, and views
-│   ├── 00_create_schemas.sql
-│   ├── 01_create_bronze_tables.sql
-│   ├── 02_apply_constraints.sql
-│   ├── 03_create_analytical_views.sql
-│   └── 04_misc_data_checks_and_exports.sql
-├── src/ # Python source code for the ETL pipeline and database utilities
-│   ├── db_utils.py
-│   ├── etl_pipeline.py
-│   ├── extract_data.py
-│   └── load_data.py
-├── .gitignore
-├── README.md # This file
-└── requirements.txt # Python dependencies
+|-- data/raw/archive (1)/ # Contains the raw Olist CSV datasets
+|-- docs/images/ # Suggested folder for ERD and dashboard images
+|   |-- final_erd.png
+|   |-- Screenshot 2025-05-14 222202.png
+|   |-- Screenshot 2025-05-14 222238.png
+|-- notebooks/ # Jupyter notebooks for experimentation, connection testing, and potentially analysis
+|   |-- db_connection.ipynb
+|   |-- extract.ipynb
+|   |-- load.ipynb
+|   |-- main.ipynb
+|-- sql/ # SQL scripts for database schema, table creation, constraints, and views
+|   |-- 00_create_schemas.sql
+|   |-- 01_create_bronze_tables.sql
+|   |-- 02_apply_constraints.sql
+|   |-- 03_create_analytical_views.sql
+|   |-- 04_misc_data_checks_and_exports.sql
+|-- src/ # Python source code for the ETL pipeline and database utilities
+|   |-- db_utils.py
+|   |-- etl_pipeline.py
+|   |-- extract_data.py
+|   |-- load_data.py
+|-- .gitignore
+|-- README.md # This file
+|-- requirements.txt # Python dependencies
 ## Database Design
 
 A relational database (PostgreSQL) is used to store and manage the data. The database is structured with Bronze, Silver, and Gold schemas, representing different stages of data processing and refinement.
