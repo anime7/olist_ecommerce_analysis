@@ -105,11 +105,14 @@ This dashboard visualizes:
 
 ![Image](https://github.com/user-attachments/assets/25214e32-1447-4753-b6e7-f6d857d31a5b)
 This dashboard focuses on:
-* Customer demographics
-* Order patterns and frequency
-* Customer satisfaction
-* Geographic customer distribution
-
+* Regional sales performance across Brazil
+* Geographic distribution visualization via Brazil map
+* Delivery performance by region (Central-West, North, Northeast, South, Southeast)
+* Customer satisfaction metrics (avg. review score of 4.076)
+* Order volume distribution (96,478 total orders)
+* Revenue metrics by region ($15,492,354 total revenue)
+* Delivery efficiency (18.3 days average delivery time)
+* Performance comparison across different Brazilian states
 ## Tech Stack
 
 * **Programming Language:** Python 3.x
