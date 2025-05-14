@@ -89,8 +89,7 @@ Interactive dashboards provide insights into various aspects of the e-commerce d
 
 ### Sales Performance Dashboard
 
-(https://github.com/anime7/olist_ecommerce_analysis/raw/master/images/Screenshot_2025-05-14_222202.png)
-
+![Image](https://github.com/user-attachments/assets/6ecb7334-4322-4c8d-8b82-5622f031077d)
 
 This dashboard visualizes:
 * Overall sales metrics
@@ -100,8 +99,7 @@ This dashboard visualizes:
 
 ### Customer Analysis Dashboard
 
-![Customer Analysis](./images/Screenshot%202025-05-14%20222238.png)
-
+![Image](https://github.com/user-attachments/assets/25214e32-1447-4753-b6e7-f6d857d31a5b)
 This dashboard focuses on:
 * Customer demographics
 * Order patterns and frequency
