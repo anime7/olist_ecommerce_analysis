@@ -74,9 +74,40 @@ An Entity Relationship Diagram (ERD) illustrating the table structures and relat
 *(Ensure the image `final_erd.png` is placed in the path specified below, or update the path if it's different. Consider renaming image files to remove spaces/special characters.)*
 
 ```markdown
+## Database Design
+
+A relational database (PostgreSQL) is used to store and manage the data. The database is structured with Bronze, Silver, and Gold schemas, representing different stages of data processing and refinement.
+
+### Database ERD
+Below is the Entity Relationship Diagram (ERD) showing the relationships between different tables in our database:
+
 ![Database ERD](./docs/images/final_erd.png)
-The SQL scripts in the sql/ directory define the schemas, tables, and relationships:00_create_schemas.sql: Creates bronze, silver, and gold schemas.01_create_bronze_tables.sql: Creates tables in the bronze schema to hold raw data from CSVs.02_apply_constraints.sql: Applies primary and foreign key constraints to tables in the bronze schema.03_create_analytical_views.sql: Creates views in the gold schema for easier analysis and dashboarding.Data VisualizationInteractive dashboards have been created using Tableau Public to visualize key findings and trends from the analyzed data. Below are previews and links to the live dashboards.(Ensure the screenshot images are placed in the specified paths, or update them if different. You might also consider renaming the image files to avoid spaces and special characters, e.g., dashboard_preview_1.png and dashboard_preview_2.png.)[Dashboard 1 Title - e.g., Olist Sales Performance Overview]Description: [Briefly describe what this dashboard shows, e.g., overall sales trends, regional performance, and product category analysis.]Live Dashboard Link: [Link to your first Tableau Public Dashboard]Preview:![Dashboard 1 Preview](./docs/images/Screenshot 2025-05-14 222202.png)
-[Dashboard 2 Title - e.g., Olist Customer and Order Analysis]Description: [Briefly describe what this dashboard shows, e.g., customer demographics, order patterns, and review score distributions.]Live Dashboard Link: [Link to your second Tableau Public Dashboard]Preview:![Dashboard 2 Preview](./docs/images/Screenshot 2025-05-14 222238.png)
+
+The SQL scripts in the `sql/` directory define the schemas, tables, and relationships:
+- `00_create_schemas.sql`: Creates bronze, silver, and gold schemas
+- `01_create_bronze_tables.sql`: Creates tables in the bronze schema to hold raw data from CSVs
+- `02_apply_constraints.sql`: Applies primary and foreign key constraints to tables in the bronze schema
+- `03_create_analytical_views.sql`: Creates views in the gold schema for easier analysis and dashboarding
+
+## Data Visualization
+
+### Sales Performance Dashboard
+![Sales Dashboard](./docs/images/Screenshot%202025-05-14%20222202.png)
+
+This dashboard provides comprehensive insights into:
+- Overall sales performance metrics
+- Regional distribution of sales
+- Product category analysis
+- Temporal trends in order volume
+
+### Customer Analysis Dashboard
+![Customer Analysis](./docs/images/Screenshot%202025-05-14%20222238.png)
+
+This dashboard focuses on:
+- Customer demographics and segmentation
+- Order patterns and frequency
+- Customer satisfaction metrics
+- Geographic distribution of customer base
 Tech StackProgramming Language: Python 3.xData Manipulation: Pandas, NumPyDatabase: PostgreSQLDatabase Connector (Python): psycopg2-binary, SQLAlchemyEnvironment Management: python-dotenvNotebooks: Jupyter Notebooks (ipykernel, nbformat)Data Visualization: Tableau Public, Matplotlib, Seaborn (for ad-hoc plotting in notebooks)SQL: For database schema, queries, and views.PrerequisitesPython (version 3.8 or higher recommended)pip (Python package installer)PostgreSQL server (version 12 or higher recommended) installed and running.A tool to execute SQL scripts against PostgreSQL (e.g., psql command-line tool, pgAdmin, DBeaver).Installation and SetupClone the repository:git clone https://github.com/[Your GitHub Username]/[Your Repository Name].git
 cd [Your Repository Name]
 Create and activate a Python virtual environment (recommended):python -m venv venv
