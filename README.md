@@ -92,10 +92,14 @@ Interactive dashboards provide insights into various aspects of the e-commerce d
 ![Image](https://github.com/user-attachments/assets/6ecb7334-4322-4c8d-8b82-5622f031077d)
 
 This dashboard visualizes:
-* Overall sales metrics
-* Regional sales distribution
-* Product category performance
-* Order volume trends
+* Total revenue and order metrics
+* Order volume trends over time
+* Delivery performance (on-time vs. delayed)
+* Payment method distribution
+* Customer satisfaction ratings
+* Average delivery times
+* Comparative performance across time periods
+* Order fulfillment analytics
 
 ### Customer Analysis Dashboard
 
