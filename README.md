@@ -89,7 +89,7 @@ Interactive dashboards provide insights into various aspects of the e-commerce d
 
 ### Sales Performance Dashboard
 
-![Sales Dashboard](./images/Screenshot_2025-05-14_222202.png)
+(https://github.com/yourusername/olist_ecommerce_analysis/raw/master/images/Screenshot_2025-05-14_222202.png)
 
 
 This dashboard visualizes:
