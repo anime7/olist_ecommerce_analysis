@@ -104,6 +104,8 @@ This dashboard visualizes:
 ### Customer Analysis Dashboard
 
 ![Image](https://github.com/user-attachments/assets/25214e32-1447-4753-b6e7-f6d857d31a5b)
+[Check out my Tableau Public dashboard](https://public.tableau.com/app/profile/animesh.talukdar/viz/customer_olist_map_final/Dashboard1)
+This dashboard visualizes:
 This dashboard focuses on:
 * Regional sales performance across Brazil
 * Geographic distribution visualization via Brazil map
