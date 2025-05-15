@@ -90,7 +90,7 @@ Interactive dashboards provide insights into various aspects of the e-commerce d
 ### Sales Performance Dashboard
 
 ![Image](https://github.com/user-attachments/assets/6ecb7334-4322-4c8d-8b82-5622f031077d)
-[Dashboard Name](https://public.tableau.com/app/profile/animesh.talukdar/viz/order_performance/Dashboard2)
+[Check out my Tableau Public dashboard](https://public.tableau.com/app/profile/animesh.talukdar/viz/order_performance/Dashboard2)
 This dashboard visualizes:
 * Total revenue and order metrics
 * Order volume trends over time
