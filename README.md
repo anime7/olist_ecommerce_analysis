@@ -75,7 +75,7 @@ We use PostgreSQL as our relational database, organized into Bronze, Silver, and
 Below is the Entity Relationship Diagram (ERD) illustrating the table structures and relationships:
 
 **![Database ERD](docs/images/final_erd.png)**
-*(Ensure the image `final_erd.png` is placed in `docs/images/` or update the path.)*
+
 
 The SQL scripts in the `sql/` directory define the database structure:
 * `00_create_schemas.sql`: Creates bronze, silver, and gold schemas.
@@ -90,7 +90,7 @@ Interactive dashboards provide insights into various aspects of the e-commerce d
 ### Sales Performance Dashboard
 
 ![Image](https://github.com/user-attachments/assets/6ecb7334-4322-4c8d-8b82-5622f031077d)
-
+[Dashboard Name](https://public.tableau.com/app/profile/animesh.talukdar/viz/order_performance/Dashboard2)
 This dashboard visualizes:
 * Total revenue and order metrics
 * Order volume trends over time
